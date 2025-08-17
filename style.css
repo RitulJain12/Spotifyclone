@@ -118,10 +118,7 @@ body {
 .n{
   color: rgb(89, 175, 237);
 }
-@media{
-  
-}
-/* Responsive CSS */
+
 @media (max-width: 1024px) {
   .container {
     flex-direction: column;
