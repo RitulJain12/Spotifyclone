@@ -154,7 +154,7 @@ body {
   }
 
   .song-item {
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
     padding: 10px;
   }
@@ -208,6 +208,7 @@ body {
 
   .banner img {
     border-radius: 5px;
+    display: none;
   }
 
   .bottom input[type="range"] {
