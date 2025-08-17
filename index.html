@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player</title>
+  <link rel="stylesheet" href="style.css">
+ <link rel="shortcut icon" href="Spoti.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  
+        <nav class="navbar">
+            <div class="logo">
+                <img src="Spoti.png" alt="">
+                Spotify</div>
+            <div class="nav-links">
+            <a href="" class="hme">Home</a>
+            </div>
+        </nav>
+
+
+                <div class="container">
+                    <div class="playlist">
+                    <h2>Listen to <span class="n"> Ritul's</span> Playlist</h2>
+                
+                    <div class="song-item">
+                        <img src="kahanisuno.jpg" alt="cover">
+                        <span>Kahani Suno</span>
+                        <span class="time">02:53</span>
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+
+                    <div class="song-item">
+                        <img src="thodisidaru.jpg" alt="cover">
+                        <span>Thodi si daru</span>
+                        <span class="time">03:00</span>
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                    <div class="song-item">
+                        <img src="saso.jpg" alt="cover">
+                        <span>Sansoo Ki Mala</span>
+                        <span class="time">04:45</span>
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                    <div class="song-item">
+                        <img src="chand.jpg" alt="cover">
+                        <span>Chand Taree</span>
+                        <span class="time">04:49</span>
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                    <div class="song-item">
+                        <img src="Somewhere.webp" alt="cover">
+                        <span>Somewhere</span>
+                        <span class="time">03:56</span>
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                    <div class="song-item">
+                        <img src="say.jpg" alt="cover">
+                        <span>Tum ho toh</span>
+                        <span class="time">05:18</span>
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+
+    
+                      </div>
+
+                            <div class="banner">
+                            <img src="Earphone.jpg" alt="music banner">
+                            </div>
+                   </div>
+            <div class="bottom">
+                <input type="range" id="progressBar" value="0" min="0" max="100">
+                <div class="controls">
+                <i class="fa-solid fa-backward"></i>
+                <i class="fa-solid fa-play btmm" ></i>
+                <i class="fa-solid fa-forward"></i>
+                </div>
+                <div class="song-info">
+                    <audio id="audioPlayer"></audio>
+                <span id="currentSong"></span>
+                </div>
+            </div>
+            <script src="index.js"></script>
+
+</body>
+</html>

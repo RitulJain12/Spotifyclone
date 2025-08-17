@@ -1,0 +1,120 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Varela Round', sans-serif;
+  background: #f4e8d3;
+  color: white;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+  color: white;
+  padding: 15px 30px;
+}
+
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar .nav-links a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 50px;
+  background: black;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+
+.playlist {
+  width: 50%;
+}
+
+.playlist h2 {
+  margin-bottom: 20px;
+}
+
+.song-item {
+  display: flex;
+  align-items: center;
+  background: #111;
+  border-radius: 30px;
+  padding: 10px 15px;
+  margin: 15px 0;
+}
+
+.song-item img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.song-item span {
+  flex: 1;
+}
+
+.song-item .time {
+  margin-right: 15px;
+}
+
+.song-item i {
+  cursor: pointer;
+}
+
+
+.banner img {
+  width: 340px;
+  border-radius: 10px;
+}
+
+.bottom {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: black;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bottom input[type="range"] {
+  flex: 1;
+  margin: 0 15px;
+}
+
+.controls i {
+  margin: 0 10px;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.song-info {
+  font-size: 0.9rem;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner{
+  padding: 0 20px;
+}
+.n{
+  color: rgb(89, 175, 237);
+}
