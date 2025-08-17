@@ -90,6 +90,3 @@ audioPlayer.addEventListener("timeupdate", () => {
 Prog.addEventListener("input", (det) => {
     audioPlayer.currentTime = det.target.value; 
 });
-
-
-

@@ -118,3 +118,102 @@ body {
 .n{
   color: rgb(89, 175, 237);
 }
+@media{
+  
+}
+/* Responsive CSS */
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+    margin: 20px 20px;
+  }
+
+  .playlist,
+  .banner {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .banner img {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+  }
+
+  .navbar .nav-links {
+    margin-top: 10px;
+  }
+
+  .navbar .nav-links a {
+    margin-left: 0;
+    margin-right: 15px;
+  }
+
+  .song-item {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .song-item img {
+    margin-bottom: 5px;
+  }
+
+  .song-item .time {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+
+  .bottom {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .bottom input[type="range"] {
+    margin: 0;
+  }
+
+  .controls {
+    justify-content: center;
+  }
+
+  .song-info {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar .logo {
+    font-size: 1.2rem;
+  }
+
+  .navbar .nav-links a {
+    font-size: 0.9rem;
+  }
+
+  .song-item {
+    font-size: 0.85rem;
+  }
+
+  .controls i {
+    font-size: 1rem;
+    margin: 0 5px;
+  }
+
+  .banner img {
+    border-radius: 5px;
+  }
+
+  .bottom input[type="range"] {
+    width: 100%;
+  }
+}
